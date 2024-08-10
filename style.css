@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.title {
+    margin-bottom: 20px;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1 {
+    width: 50%;
+    background-color: gold;
+    font-size: 30px;
+    padding: 20px;
+}
+.box2 {
+    width: 50%;
+    background-color: lime;
+    font-size: 40px;
+    padding: 45px;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pic {
+    width: 30%;
+}
+.text {
+    width: 70%;
+    background-color: aqua;
+    padding: 30px;
+}
